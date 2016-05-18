@@ -1,25 +1,29 @@
 * {
 	padding: 0px;
 	margin: 0px;
+	box-sizing:border-box;
 }
 body {
-	background-size: cover;
-	background-image: url("/Users/jessicarodriguez/Desktop/General\ Assembly/Github/kylekatsumis.github.io/unit_3/images/temp_background.jpg");
-	font-family: Helvetica, Arial, sans-serif;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:16px;
 }
 h1 {
 	color: #FFFFFF;
-	font-size: 25px;
+	font-size: 1.5em;
 	text-align: left;
-	margin-bottom: 25px;
-	padding: 5px;
+	margin-bottom: 1em;
+	padding: .5em;
 }
 header {
-	
-	padding: 0px; 
+	padding: 0px;
 	background-color: rgba(0,0,0,.7);
 	text-align: right;
-	margin-top: 35px;
+	float: left;
+	margin-top: 2em;
+	width: 100%;
+}
+nav {
+	border-top:2px solid #fff;
 }
 a{
 	color: #FFFFFF;
@@ -42,18 +46,16 @@ p {
 	margin-left: 100px;
 	margin-right: 100px;
 }
-#screen1 {
-	height: 25%;
-	width: 25%;
-	
+#splash {
+	background-size: cover;
+	background-image: url(../images/temp_background.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
 }
-#screen2 {
-	height: 25%;
-	width: 25%;
-	
+#splash div {
+	padding-top:10em;
 }
-#screen3 {
-	height: 25%;
-	width: 25%;
-	
+#portfolio img {
+	width:33.33%;
+	float:left;
 }
