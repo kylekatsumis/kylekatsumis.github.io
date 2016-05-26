@@ -1,18 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Orbitron);
-@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Sanchez);
 * {
 	padding: 0px;
 	margin: 0px;
-	box-sizing:border-box;
-}
-body {
-	font-family:Helvetica, Arial, sans-serif;
-	font-size:16px;
+	box-sizing: border-box;
 }
 h1 {
 	color: #FFFFFF;
 	font-size: 1.5em;
-	font-family: 'Orbitron';
+	font-family: 'Architects Daughter';
 	text-align: left;
 	margin-bottom: 1em;
 	padding: .5em;
@@ -27,21 +24,22 @@ header {
 }
 nav {
 	border-top: 2px solid #fff;
-	font-family: 'Poiret One';
+	font-family: 'Amatic SC';
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 a{
 	color: #FFFFFF;
 	text-decoration: none;
 	margin: 70px;
-	font-size:14px;
+	font-size: 18px; 
+	font-weight: bold;
 }
 h2 {
+	font-family: 'Sanchez';
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 10px;
-	margin-left: 100px;
-	margin-right: 100px;
 }
 p {
 	font-size: 16px;
@@ -50,6 +48,13 @@ p {
 	margin-left: 100px;
 	margin-right: 100px;
 }
+img {
+	width: 100%;
+}
+h4 {
+	width: 30em;
+	font-family: ;
+}
 #splash {
 	background-size: cover;
 	background-image: url(../images/temp_background.jpg);
@@ -57,9 +62,9 @@ p {
 	height: 100vh;
 }
 #splash div {
-	padding-top:10em;
+	padding-top: 12em;
 }
-#portfolio img {
-	width:33.33%;
-	float:left;
+.portfolio img {
+	width: 30em;
+	float: left;
 }
