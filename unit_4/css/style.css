@@ -1,17 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-@import url(https://fonts.googleapis.com/css?family=Sanchez);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
 * {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 }
+body{
+	background-size: cover;
+	background-color: #B3CACC;
+	height: 100vh;
+}
 h1 {
 	color: #FFFFFF;
-	font-size: 1.5em;
+	font-size: 35px;
 	font-family: 'Architects Daughter';
 	text-align: left;
-	margin-bottom: 1em;
 	padding: .5em;
 }
 header {
@@ -35,11 +39,22 @@ a{
 	font-size: 18px; 
 	font-weight: bold;
 }
+
 h2 {
-	font-family: 'Sanchez';
+	font-family: 'Cinzel';
 	font-weight: bold;
 	font-size: 20px;
 	text-align: center;
+}
+h3 {
+	font-family: 'Cinzel';
+	text-align: center;
+	font-size: 28px;
+	padding: .5em;
+}
+hr 	{
+	width: 20%;
+	margin: auto;
 }
 p {
 	font-size: 16px;
@@ -52,19 +67,54 @@ img {
 	width: 100%;
 }
 h4 {
-	width: 30em;
-	font-family: ;
+	font-family: "Cinzel";
+	font-color: ;
+	font-size: 14px;
+	padding: 1em;
+	width: 960px;
 }
-#splash {
+h5 {
+	font-family: "Cinzel";
+	font-size: 10px;
+	width: 960px;
+}
+footer {
+	padding: 5px;
+	background-color: rgba(0,0,0,.7);
+	text-align: right;
+	float: left;
+	margin-top: 2em;
+	width: 100%
+}
+#slogan {
 	background-size: cover;
 	background-image: url(../images/temp_background.jpg);
 	background-repeat: no-repeat;
 	height: 100vh;
 }
-#splash div {
+#slogan div {
 	padding-top: 12em;
+}
+#about {
+	padding: .5em;
 }
 .portfolio img {
 	width: 30em;
+}
+#kelly {
+	margin-top: 15px;
+	text-align: right;
 	float: left;
+}
+#kyle {
+	text-align: left;
+	float: right;
+}
+#nick {
+	text-align: right;
+	float: left;
+}
+#tanner {
+	text-align: left;
+	float: right;
 }
