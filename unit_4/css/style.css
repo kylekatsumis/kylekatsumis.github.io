@@ -11,9 +11,9 @@ body{
 	background-color: #B3CACC;
 	height: 100vh;
 }
-h1 {
+.logo {
 	color: #FFFFFF;
-	font-size: 35px;
+	font-size: 2em;
 	font-family: 'Architects Daughter';
 	text-align: left;
 	padding: .5em;
@@ -22,9 +22,9 @@ header {
 	padding: 0px;
 	background-color: rgba(0,0,0,.7);
 	text-align: right;
-	float: left;
-	margin-top: 2em;
 	width: 100%;
+	position: fixed;
+	top: 0em;
 }
 nav {
 	border-top: 2px solid #fff;
@@ -39,14 +39,18 @@ a{
 	font-size: 18px; 
 	font-weight: bold;
 }
-
-h2 {
+.cta {
+	background:purple;
+	display:inline-block;
+	padding:1em 2em;
+	margin: 1em 0 0;
+}
+h1 {
 	font-family: 'Cinzel';
 	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
+	font-size: 2em;
 }
-h3 {
+h2 {
 	font-family: 'Cinzel';
 	text-align: center;
 	font-size: 28px;
@@ -57,26 +61,20 @@ hr 	{
 	margin: auto;
 }
 p {
-	font-size: 16px;
 	text-align: center;
 	margin-top: 20px;
-	margin-left: 100px;
-	margin-right: 100px;
 }
 img {
 	width: 100%;
 }
+h3 {
+	font-family: "Cinzel";
+	font-size: 2em;
+}
 h4 {
 	font-family: "Cinzel";
-	font-color: ;
-	font-size: 14px;
-	padding: 1em;
-	width: 960px;
-}
-h5 {
-	font-family: "Cinzel";
-	font-size: 10px;
-	width: 960px;
+	font-size: 1.25em;
+	font-weight: 400;
 }
 footer {
 	padding: 5px;
@@ -91,6 +89,7 @@ footer {
 	background-image: url(../images/temp_background.jpg);
 	background-repeat: no-repeat;
 	height: 100vh;
+	text-align: center;
 }
 #slogan div {
 	padding-top: 12em;
@@ -98,23 +97,44 @@ footer {
 #about {
 	padding: .5em;
 }
+.portfolio {
+	clear:both;
+	padding:4em 0;
+	width: 75em;
+	margin: auto;
+}
 .portfolio img {
-	width: 30em;
+	float:left;
+	padding:0 2em 0 0;
+	width: 33.33%;
 }
-#kelly {
-	margin-top: 15px;
-	text-align: right;
-	float: left;
+.portfolio div {
+	float:left;
+	width: 66.66%;
 }
-#kyle {
-	text-align: left;
-	float: right;
+.portfolio:nth-of-type(even) > * {
+	float:right;
+	text-align:right;
 }
-#nick {
-	text-align: right;
-	float: left;
+.portfolio:nth-of-type(even) img {
+	padding: 0 0 0 2em;
 }
-#tanner {
-	text-align: left;
-	float: right;
+#otherlinks {
+	position:fixed;
+	top:25%;
+	left:0;
+}
+#otherlinks a {
+	display:block;
+	margin:0;
+	padding:1em 1em;
+}
+#otherlinks a:first-of-type {
+	background:aliceblue;
+}
+#otherlinks a:nth-of-type(2) {
+	background:blue;
+}
+#otherlinks a:last-of-type {
+	background:red;
 }
