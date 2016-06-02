@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-size: cover;
+	background-color: #B3CACC;
+	height: 100vh;
+}
+.logo {
+	color: #FFFFFF;
+	font-size: 2em;
+	font-family: 'Architects Daughter';
+	text-align: left;
+	padding: .5em;
+}
+header {
+	padding: 0px;
+	background-color: rgba(0,0,0,.7);
+	text-align: right;
+	width: 100%;
+	position: fixed;
+	top: 0em;
+}
+nav {
+	border-top: 2px solid #fff;
+	font-family: 'Amatic SC';
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 70px;
+	font-size: 18px; 
+	font-weight: bold;
+}
+.cta {
+	background:purple;
+	display:inline-block;
+	padding:1em 2em;
+	margin: 1em 0 0;
+}
+h1 {
+	font-family: 'Cinzel';
+	font-weight: bold;
+	font-size: 2em;
+}
+h2 {
+	font-family: 'Cinzel';
+	text-align: center;
+	font-size: 28px;
+	padding: .5em;
+}
+hr 	{
+	width: 20%;
+	margin: auto;
+}
+p {
+	text-align: center;
+	margin-top: 20px;
+}
+img {
+	width: 100%;
+}
+h3 {
+	font-family: "Cinzel";
+	font-size: 2em;
+}
+h4 {
+	font-family: "Cinzel";
+	font-size: 1.25em;
+	font-weight: 400;
+}
+footer {
+	padding: 5px;
+	background-color: rgba(0,0,0,.7);
+	text-align: right;
+	float: left;
+	margin-top: 2em;
+	width: 100%
+}
+#slogan {
+	background-size: cover;
+	background-image: url(../images/temp_background.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+}
+#slogan div {
+	padding-top: 12em;
+}
+#about {
+	padding: .5em;
+}
+.portfolio {
+	clear:both;
+	padding:4em 0;
+	width: 75em;
+	margin: auto;
+}
+.portfolio img {
+	float:left;
+	padding:0 2em 0 0;
+	width: 33.33%;
+}
+.portfolio div {
+	float:left;
+	width: 66.66%;
+}
+.portfolio:nth-of-type(even) > * {
+	float:right;
+	text-align:right;
+}
+.portfolio:nth-of-type(even) img {
+	padding: 0 0 0 2em;
+}
+#socialmedia {
+	position:fixed;
+	top:25%;
+	left:0;
+}
+#socialmedia a {
+	display:block;
+	margin:0;
+	padding:1em 1em;
+}
+#socialmedia a:first-of-type {
+	background:aliceblue;
+}
+#socialmedia a:nth-of-type(2) {
+	background:blue;
+}
+#socialmedia a:last-of-type {
+	background:red;
+}
