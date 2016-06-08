@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-size: cover;
+	background-color: #B3CACC;
+	height: 100vh;
+}
+.logo {
+	color: #FFFFFF;
+	font-size: 2em;
+	font-family: 'Architects Daughter';
+	text-align: left;
+	padding: .3em;
+}
+header {
+	padding: 0px;
+	background-color: rgba(0,0,0,.7);
+	text-align: right;
+	width: 100%;
+	position: fixed;
+	top: 0em;
+}
+nav {
+	border-top: 2px solid #fff;
+	font-family: 'Amatic SC';
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 70px;
+	font-size: 18px; 
+	font-weight: bold;
+}
+.cta {
+	background:purple;
+	display:inline-block;
+	padding:1em 2em;
+	margin: 1em 0 0;
+	font-family: 'Amatic SC';
+}
+h1 {
+	font-family: 'Architects Daughter';
+	font-weight: bold;
+	font-size: 2em;
+}
+h2 {
+	font-family: 'Amatic SC';
+	text-align: center;
+	font-size: 3em;
+	padding: .5em;
+}
+p {
+	text-align: center;
+	margin-top: 20px;
+}
+img {
+	width: 100%;
+}
+h3 {
+	font-family: 'Architects Daughter';
+	font-size: 2em;
+	padding: 1em;
+}
+h4 {
+	font-family: 'Architects Daughter';
+	font-size: 1.5em;
+	font-weight: 400;
+	padding: 1.7em;
+	text-align: right;
+}
+#slogan {
+	background-size: cover;
+	background-image: url(../images/temp_background.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	text-align: center;
+}
+#slogan div {
+	padding-top: 32em;
+
+}
+#about {
+	clear:both;
+	padding:4em 0;
+	width: 75em;
+	margin: auto;
+}
+#about h2 {
+	float:left;
+	padding: 1em;
+	width: 50%;
+}
+#about div {
+	float: right;
+	padding: 1em;
+	width: 50%;
+	font-family: 'Architects Daughter';
+}
+span {
+	color:orange;
+}
+#crew h2 {
+	clear:both;
+	margin: auto;
+	padding: 1em;
+	width:100%;
+	background-color: white;
+}
+.portfolio {
+	clear:both;
+	padding:4em 0;
+	width: 75em;
+	margin: auto;
+}
+.portfolio img {
+	float:left;
+	padding:0 2em 0 0;
+	width: 33.33%;
+}
+.portfolio div {
+	float:left;
+	width: 66.66%;
+}
+.portfolio:nth-of-type(even) > * {
+	float:right;
+	text-align:right;
+}
+.portfolio:nth-of-type(even) img {
+	padding: 0 0 0 2em;
+}
+#kelly {
+	background-color: black;
+}
+#kelly div {
+	background-color: black;
+	color:white;
+}
+#kelly img {
+	background-color: black;
+}
+#kyle {
+	background-color: white;
+}
+#kyle div {
+	color: black;
+	background-color: white;
+}
+#kyle img {
+	background-color: white;
+}
+#nick {
+	background-color: black;
+}
+#nick div {
+	color:white;
+	background-color: black;
+}
+#nick img{
+	background-color: black;
+}
+#tanner {
+	background-color: white;
+}
+#tanner div {
+	color: black;
+	background-color: white;
+}
+#tanner img {
+	background-color: white;
+}
+#socialmedia {
+	position:fixed;
+	top:25%;
+	right:0;
+	border: none;
+}
+#socialmedia a {
+	display:block;
+	margin:0;
+	padding:1em 1em;
+}
+#socialmedia a:first-of-type {
+	background: blue;
+}
+#socialmedia a:last-of-type {
+	background: red;
+}
+footer {
+	padding: 5px;
+	background-color: rgba(0,0,0,.7);
+	text-align: left;
+	float: left;
+	margin-top: 2em;
+	width: 100%
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
