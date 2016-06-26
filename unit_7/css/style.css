@@ -84,35 +84,34 @@ h4 {
 	text-align: center;
 }
 #slogan div {
-	padding-top: 32em;
+	padding-top: 38em;
 
 }
 #about {
 	clear:both;
 	padding:4em 0;
-	width: 75em;
+	width: 100%;
 	margin: auto;
+	background-color: white;
 }
 #about h2 {
 	float:left;
 	padding: 1em;
 	width: 50%;
+	background-color: white;
 }
 #about div {
 	float: right;
 	padding: 1em;
 	width: 50%;
 	font-family: 'Architects Daughter';
-}
-span {
-	color: white;
+	background-color: white;
 }
 #crew h2 {
 	clear:both;
 	margin: auto;
 	padding: 1em;
 	width:100%;
-	background-color: white;
 }
 .portfolio {
 	clear:both;
@@ -142,6 +141,7 @@ span {
 #kelly div {
 	background-color: black;
 	color:white;
+	height: 50vh;
 }
 #kelly img {
 	background-color: black;
@@ -152,6 +152,7 @@ span {
 #kyle div {
 	color: black;
 	background-color: white;
+	height: 42.5vh;
 }
 #kyle img {
 	background-color: white;
@@ -162,6 +163,7 @@ span {
 #nick div {
 	color:white;
 	background-color: black;
+	height: 49vh;
 }
 #nick img{
 	background-color: black;
@@ -172,9 +174,30 @@ span {
 #tanner div {
 	color: black;
 	background-color: white;
+	height: 50vh;
 }
 #tanner img {
 	background-color: white;
+}
+#contact {
+	clear:both;
+	padding:4em 0;
+	width: 100%;
+	margin: auto;
+	background-color: #A7A7A7;
+}
+#contact h2 {
+	float:left;
+	padding: 1em;
+	width: 50%;
+	background-color: #A7A7A7;
+}
+#contact div {
+	float: right;
+	padding: 1em;
+	width: 50%;
+	font-family: 'Architects Daughter';
+	background-color: #A7A7A7;
 }
 #socialmedia {
 	position:fixed;

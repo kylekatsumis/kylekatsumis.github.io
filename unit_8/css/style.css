@@ -2,8 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
 @import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
 * {
-	padding: 0px;
-	margin: 0px;
+	padding: 0%;
+	margin: 0%;
 	box-sizing: border-box;
 }
 body{
@@ -19,7 +19,7 @@ body{
 	padding: .3em;
 }
 header {
-	padding: 0px;
+	padding: 0%;
 	background-color: rgba(0,0,0,.7);
 	text-align: right;
 	width: 100%;
@@ -32,10 +32,10 @@ nav {
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
-a{
+a {
 	color: #FFFFFF;
 	text-decoration: none;
-	margin: 70px;
+	margin: 7%;
 	font-size: 18px; 
 	font-weight: bold;
 }
@@ -59,7 +59,7 @@ h2 {
 }
 p {
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 2%;
 }
 img {
 	width: 100%;
@@ -201,7 +201,7 @@ h4 {
 }
 #socialmedia {
 	position:fixed;
-	top:25%;
+	top: 25%;
 	right:0;
 	border: none;
 }
@@ -217,7 +217,7 @@ h4 {
 	background: red;
 }
 footer {
-	padding: 5px;
+	padding: .05%;
 	background-color: rgba(0,0,0,.7);
 	float: left;
 	margin-top: 2em;
@@ -230,4 +230,14 @@ footer {
     content: " ";
     clear: both;
     height: 0;
+ }
+ @media screen only and (min-width: 500px) {
+ 	nav {
+ 		font-size: .5em;
+ 	}
+ }
+ @media screen only and (min-width: 500px) {
+ 	.portfolio img {
+ 		width: .5em;
+ 	}
  }
