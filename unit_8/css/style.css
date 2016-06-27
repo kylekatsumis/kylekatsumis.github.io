@@ -35,7 +35,7 @@ nav {
 a {
 	color: #FFFFFF;
 	text-decoration: none;
-	margin: 7%;
+	margin: 0 2em;
 	font-size: 18px; 
 	font-weight: bold;
 }
@@ -82,33 +82,33 @@ h4 {
 	background-repeat: no-repeat;
 	height: 100vh;
 	text-align: center;
+	max-width: 1440px;
+	min-width: 320px;
 }
 #slogan div {
 	padding-top: 38em;
 
 }
-#about {
+#about .clearfix {
 	clear:both;
+	float: right;
 	padding:4em 0;
 	width: 100%;
 	margin: auto;
 	background-color: white;
+	display: inline-block;
 }
 #about h2 {
-	float:left;
 	padding: 1em;
-	width: 50%;
 	background-color: white;
 }
 #about div {
-	float: right;
 	padding: 1em;
-	width: 50%;
 	font-family: 'Architects Daughter';
 	background-color: white;
 }
 #crew h2 {
-	clear:both;
+	clear: both;
 	margin: auto;
 	padding: 1em;
 	width:100%;
@@ -116,7 +116,7 @@ h4 {
 .portfolio {
 	clear:both;
 	padding:4em 0;
-	width: 75em;
+	max-width: 75em;
 	margin: auto;
 }
 .portfolio img {
@@ -141,7 +141,6 @@ h4 {
 #kelly div {
 	background-color: black;
 	color:white;
-	height: 50vh;
 }
 #kelly img {
 	background-color: black;
@@ -152,7 +151,6 @@ h4 {
 #kyle div {
 	color: black;
 	background-color: white;
-	height: 42.5vh;
 }
 #kyle img {
 	background-color: white;
@@ -163,7 +161,6 @@ h4 {
 #nick div {
 	color:white;
 	background-color: black;
-	height: 49vh;
 }
 #nick img{
 	background-color: black;
@@ -174,7 +171,6 @@ h4 {
 #tanner div {
 	color: black;
 	background-color: white;
-	height: 50vh;
 }
 #tanner img {
 	background-color: white;
@@ -231,13 +227,25 @@ footer {
     clear: both;
     height: 0;
  }
- @media screen only and (min-width: 500px) {
- 	nav {
- 		font-size: .5em;
- 	}
- }
- @media screen only and (min-width: 500px) {
- 	.portfolio img {
- 		width: .5em;
- 	}
- }
+@media screen only and (max-width: 320px) {
+	body {
+		font-size: 12px;
+	}
+}
+@media screen only and (max-width: 320px) {
+	#slogan { 
+		font-size: 12px; 
+		text-align: center;
+		background: cover;
+	}
+}
+@media screen only and (max width: 320px) {
+	#about {
+		padding: 4em;
+	}
+}
+@media screen only and (max-width: 320px) {
+	.porfolio {
+		font-size: 12px;
+	}
+}
