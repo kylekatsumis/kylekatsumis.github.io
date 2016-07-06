@@ -7,9 +7,13 @@
 	box-sizing: border-box;
 }
 body{
-	background-size: cover;
-	background-color: rgba(82, 109, 142,.5);
+	background-size: 1080px 720px;
+	background-repeat: no-repeat;
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-position: center;
 	height: 100vh;
+	background-color: #000000
 }
 .logo {
 	color: #FFFFFF;
@@ -36,7 +40,10 @@ a {
 	color: #FFFFFF;
 	text-decoration: none;
 	margin: 0 2em;
-	font-size: 1em;
+	font-size: 1.2em;
+}
+.logo span {
+	color: rgb(246, 118, 0);
 }
 .cta {
 	background-color: rgba(246, 118, 0, .7);
@@ -211,12 +218,14 @@ h4 {
 footer {
 	padding: .5em;
 	background-color: rgba(0,0,0,.7);
-	font-color: #FFFFFF;
 	font-size: 1em;
 	font-weight: 2px;
 	font-family: 'Architects Daughter';
 	float: left;
 	width: 100%
+}
+footer p {
+	color: #FFFFFF;
 }
 .clearfix:after {
     visibility: hidden;
